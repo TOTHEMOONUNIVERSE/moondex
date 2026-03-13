@@ -1,0 +1,157 @@
+items:
+  - id: vehicles
+    label: Vehicles
+    weight: 4
+    children:
+      - id: rover
+        label: Rover
+        weight: 3
+        children:
+          - id: rover_light
+            label: Light Rover
+            weight: 2
+          - id: rover_heavy
+            label: Heavy Rover
+            weight: 1
+
+      - id: shuttle
+        label: Shuttle
+        weight: 2
+        children:
+          - id: shuttle_cargo
+            label: Cargo Shuttle
+            weight: 2
+          - id: shuttle_scout
+            label: Scout Shuttle
+            weight: 1
+
+      - id: bike
+        label: Bike
+        weight: 1
+
+  - id: tools
+    label: Tools
+    weight: 3
+    children:
+      - id: mining
+        label: Mining
+        weight: 3
+        children:
+          - id: pickaxe
+            label: Pickaxe
+            weight: 2
+          - id: drill
+            label: Drill
+            weight: 1
+      - id: building
+        label: Building
+        weight: 2
+        children:
+          - id: welder
+            label: Welder
+            weight: 2
+          - id: cutter
+            label: Cutter
+            weight: 1
+      - id: utility
+        label: Utility
+        weight: 1
+        children:
+          - id: scanner
+            label: Scanner
+            weight: 2
+          - id: beacon
+            label: Beacon
+            weight: 1
+
+  - id: creatures
+    label: Creatures
+    weight: 5
+    children:
+      - id: herbivores
+        label: Herbivores
+        weight: 2
+        children:
+          - id: grazer
+            label: Grazer
+            weight: 2
+          - id: burrower
+            label: Burrower
+            weight: 1
+
+      - id: predators
+        label: Predators
+        weight: 2
+        children:
+          - id: stalker
+            label: Stalker
+            weight: 2
+          - id: pouncer
+            label: Pouncer
+            weight: 1
+
+      - id: rares
+        label: Rares
+        weight: 1
+        children:
+          - id: lumina
+            label: Lumina
+            weight: 1
+
+  - id: trainers
+    label: Trainers
+    weight: 2
+    children:
+      - id: roles
+        label: Roles
+        weight: 2
+        children:
+          - id: handler
+            label: Handler
+            weight: 2
+          - id: medic
+            label: Medic
+            weight: 1
+          - id: engineer
+            label: Engineer
+            weight: 1
+
+      - id: perks
+        label: Perks
+        weight: 1
+        children:
+          - id: grit
+            label: Grit
+            weight: 1
+          - id: wit
+            label: Wit
+            weight: 1
+          - id: focus
+            label: Focus
+            weight: 1
+
+  - id: food
+    label: Food
+    weight: 2
+    children:
+      - id: rations
+        label: Rations
+        weight: 2
+        children:
+          - id: ration_basic
+            label: Basic Ration
+            weight: 2
+          - id: ration_premium
+            label: Premium Ration
+            weight: 1
+
+      - id: fresh
+        label: Fresh
+        weight: 1
+        children:
+          - id: fruit
+            label: Fruit
+            weight: 2
+          - id: veg
+            label: Veg
+            weight: 2
