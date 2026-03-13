@@ -9,6 +9,7 @@ items:
         children:
           - id: rover_light
             label: Light Rover
+            image: https://ipfs.moon.net/racecar.png
             weight: 2
           - id: rover_heavy
             label: Heavy Rover
