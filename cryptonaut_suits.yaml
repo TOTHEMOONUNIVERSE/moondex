@@ -1,0 +1,281 @@
+suits:
+  _00:
+    name: Nova-Class Standard Suit
+    short: The baseline EVA suit issued across most lunar colonies.
+    deep: >
+      The Nova-Class Standard Suit is the most widely used EVA platform in
+      lunar settlements. Developed by the Nova Consortium after the third
+      lunar industrial expansion, it balances mobility, radiation protection,
+      and manufacturability. Its modular plating and simplified life-support
+      systems allow easy maintenance and repair.
+    perk: Highly reliable and easy to manufacture
+    flaw: Lacks specialized protection for extreme environments
+    status: Current production
+
+  _01:
+    name: Nova-Class Engineering Suit
+    short: A modified Nova suit optimized for engineers and repair crews.
+    deep: >
+      The Engineering variant of the Nova suit is built for maintenance,
+      construction, and hull repair work. It adds reinforced gloves,
+      magnetic boot stabilizers, and integrated tool mounts to the base
+      design. These upgrades improve durability and utility but make the
+      suit heavier and slightly less agile.
+    perk: Reinforced joints and integrated tool mounts
+    flaw: Heavier and less agile than the standard Nova suit
+    status: Widely used by engineering crews
+
+  _02:
+    name: Ares Industrial Suit
+    short: Heavy-duty suit used by early lunar mining crews.
+    deep: >
+      Designed for brutal regolith excavation conditions, the Ares suit used reinforced
+      joints and thick plating to protect workers from debris and micrometeor impacts.
+      The rigid structure provided durability but severely limited agility and consumed
+      large amounts of power.
+    perk: Exceptional impact resistance
+    flaw: Extremely heavy and slow
+    status: Phased out after mining automation increased
+
+  _03:
+    name: Helios Survey Suit
+    short: High-visibility suit used during early lunar mapping campaigns.
+    deep: >
+      Helios suits were issued to geological survey teams responsible for mapping the
+      lunar surface during the expansion era. Their bright coloration helped drone
+      observers and orbiting satellites track explorers against the monochrome terrain.
+    perk: Advanced terrain scanners
+    flaw: Limited radiation protection
+    status: Retired once orbital mapping replaced ground surveys
+
+  _04:
+    name: Pioneer Exploration Suit
+    short: Lightweight suit designed for long-range exploration.
+    deep: >
+      Pioneer suits allowed explorers to travel long distances across the lunar surface
+      with reduced fatigue. The suit emphasized flexibility and endurance systems but
+      sacrificed durability to achieve its low weight.
+    perk: High mobility and endurance
+    flaw: Fragile shell structure
+    status: Rare collector’s suit among exploration guilds
+
+  _05:
+    name: Triton Mobility Suit
+    short: Experimental suit designed for extreme EVA mobility.
+    deep: >
+      Triton suits used servo-assisted joints and dynamic balance systems to dramatically
+      increase movement efficiency. However, lunar dust infiltration repeatedly damaged
+      the delicate mechanics, making the system unreliable in real missions.
+    perk: Exceptional movement agility
+    flaw: Mechanical reliability issues
+    status: Prototype program cancelled
+
+  _06:
+    name: Eclipse Stealth Suit
+    short: Low-reflectivity suit developed for covert lunar operations.
+    deep: >
+      The Eclipse suit minimized reflective surfaces and thermal signatures, making it
+      ideal for surveillance or security missions near sensitive installations. The
+      specialized coatings degraded quickly under prolonged solar exposure.
+    perk: Reduced sensor detection
+    flaw: Expensive maintenance
+    status: Restricted security surplus
+
+  _07:
+    name: Apollo Heritage Suit
+    short: Ceremonial recreation of early Earth lunar suits.
+    deep: >
+      Designed to commemorate humanity’s first steps on the Moon, the Apollo Heritage
+      suit replicates many visual elements of the original historical suits while
+      quietly incorporating modern life support technology.
+    perk: Extremely reliable life-support
+    flaw: Limited flexibility
+    status: Used primarily for ceremonial or tourism missions
+
+  _08:
+    name: Frontier Work Suit
+    short: Affordable EVA suit favored by independent settlers.
+    deep: >
+      The Frontier suit was produced cheaply and designed to be repaired with minimal
+      tools. Prospectors and freelancers favored it for its simplicity, despite its
+      limited environmental protection.
+    perk: Cheap and easily repairable
+    flaw: Weak radiation shielding
+    status: Still common among private prospectors
+
+  _09:
+    name: Horizon Research Suit
+    short: Scientific suit used by lunar research institutions.
+    deep: >
+      Horizon suits integrated instrument ports allowing scientists to plug sensors,
+      analyzers, and research equipment directly into the suit’s onboard systems.
+    perk: Integrated research instrumentation
+    flaw: Delicate external mounts
+    status: Mostly replaced by drone-assisted research
+
+  _10:
+    name: Pathfinder Recon Suit
+    short: Scouting suit used for rapid terrain reconnaissance.
+    deep: >
+      Pathfinder suits helped small survey teams quickly evaluate new base locations.
+      Advanced scanning packages were included but oxygen capacity was limited.
+    perk: Advanced scanning systems
+    flaw: Short EVA duration
+    status: Replaced by automated reconnaissance drones
+
+  _11:
+    name: Atlas Heavy Suit
+    short: Power-assisted suit used for construction and cargo lifting.
+    deep: >
+      Atlas suits were essentially wearable exoskeletons built to assist workers
+      assembling early lunar megastructures. The suit could lift heavy machinery but
+      consumed enormous power and required frequent maintenance.
+    perk: Extreme lifting strength
+    flaw: High power consumption
+    status: Replaced by robotic loaders
+
+  _12:
+    name: Mercury Flight Suit
+    short: Lightweight suit worn by shuttle pilots.
+    deep: >
+      The Mercury suit provided emergency EVA capability while remaining comfortable
+      enough for cockpit use. It lacked rugged surface protection but worked well
+      for short-duration operations around spacecraft.
+    perk: Lightweight and ergonomic
+    flaw: Poor surface durability
+    status: Still used by cargo pilots
+
+  _13:
+    name: Sentinel Security Suit
+    short: Protective suit used by lunar base security teams.
+    deep: >
+      Sentinel suits featured reinforced armor plates and advanced communication
+      systems allowing security teams to patrol installations safely.
+    perk: Enhanced armor protection
+    flaw: Reduced agility
+    status: Rare after widespread security automation
+
+  _14:
+    name: TerraGreen Environmental Suit
+    short: Suit designed for ecological and greenhouse work.
+    deep: >
+      TerraGreen suits protected lunar ecosystems from contamination while allowing
+      workers to maintain agricultural domes and biological experiments.
+    perk: Bio-safe filtration systems
+    flaw: Weak vacuum protection
+    status: Used only inside controlled environments
+
+  _15:
+    name: Solar Expedition Suit
+    short: Suit designed for high solar radiation environments.
+    deep: >
+      Built for missions near permanently illuminated lunar peaks, the Solar Expedition
+      suit incorporated layered radiation shielding to protect workers from constant
+      solar exposure.
+    perk: Excellent radiation shielding
+    flaw: Bulky and thermally inefficient
+    status: Rare outside solar observatories
+
+  _16:
+    name: Ranger Scout Suit
+    short: Minimalist suit optimized for long-distance travel.
+    deep: >
+      Ranger suits stripped away non-essential systems to maximize endurance and
+      efficiency. They were used by scouting teams covering large distances.
+    perk: High stamina efficiency
+    flaw: Minimal armor protection
+    status: Replaced by rover scouting drones
+
+  _17:
+    name: Aurora Tourism Suit
+    short: Colorful EVA suit designed for lunar tourists.
+    deep: >
+      Aurora suits prioritized comfort and aesthetic appeal for commercial lunar
+      excursions. Their safety systems were sufficient for controlled environments
+      but not for industrial missions.
+    perk: Comfortable and user-friendly
+    flaw: Low durability
+    status: Used only in tourism programs
+
+  _18:
+    name: Vanguard Military Suit
+    short: Heavily armored suit developed during the lunar militarization era.
+    deep: >
+      The Vanguard suit integrated tactical communications and reinforced armor.
+      However, international treaties later demilitarized most lunar operations,
+      making the suit unnecessary.
+    perk: Heavy armor protection
+    flaw: Extremely costly and heavy
+    status: Classified historical equipment
+
+  _19:
+    name: Unity Cooperative Suit
+    short: International collaboration suit project.
+    deep: >
+      The Unity suit was intended to standardize EVA technology across multiple
+      space agencies. While technically impressive, political disagreements halted
+      its widespread adoption.
+    perk: Highly modular design
+    flaw: Complex maintenance
+    status: Abandoned program
+
+  _20:
+    name: Nebula Experimental Suit
+    short: Prototype suit using advanced composite materials.
+    deep: >
+      Nebula suits experimented with flexible materials that dramatically improved
+      mobility. Production costs were far too high for mass deployment.
+    perk: Exceptional flexibility
+    flaw: Prohibitively expensive
+    status: Experimental archive
+
+  _21:
+    name: Archivist Data Suit
+    short: Suit designed for archaeological and historical surveys.
+    deep: >
+      Archivist suits recorded large amounts of environmental and structural data
+      while exploring abandoned lunar installations and early settlements.
+    perk: Large onboard data storage
+    flaw: Reduced mobility
+    status: Used by research expeditions
+
+  _22:
+    name: Aqua Recycling Suit
+    short: Suit used in ice mining operations.
+    deep: >
+      Aqua suits were engineered to operate within extremely cold crater environments
+      where frozen water deposits were harvested for colony supply.
+    perk: Superior cold resistance
+    flaw: Poor heat dissipation
+    status: Limited industrial deployment
+
+  _23:
+    name: Comet Pilot Suit
+    short: EVA suit used by pilots intercepting comet mining payloads.
+    deep: >
+      Comet pilots required flexible suits allowing precise maneuvering while
+      operating capture equipment around icy asteroid fragments.
+    perk: Advanced maneuvering controls
+    flaw: Minimal armor
+    status: Rare specialist equipment
+
+  _24:
+    name: Drift Salvage Suit
+    short: Suit worn by orbital debris recovery crews.
+    deep: >
+      Salvagers used Drift suits to recover abandoned satellites and debris orbiting
+      the Moon. Magnetic boots and tether systems were standard features.
+    perk: Excellent zero-g maneuverability
+    flaw: Weak surface protection
+    status: Still used by salvage guilds
+
+  _25:
+    name: Genesis Colony Suit
+    short: One of the earliest suits used during lunar colonization.
+    deep: >
+      The Genesis suit marked the beginning of permanent lunar habitation. Its
+      life-support systems were robust but bulky, making it inefficient compared
+      to modern designs.
+    perk: Extremely durable life-support
+    flaw: Obsolete and inefficient
+    status: Historical artifact
